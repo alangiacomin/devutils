@@ -1,0 +1,21 @@
+{
+    "name": "alangiacomin/devutils",
+    "type": "alangiacomin-devutils",
+    "description": "Dev shortcut commands",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alan Giacomin",
+            "email": "alan.giacomin@gmail.com"
+        }
+    ],
+    "require": {
+        "alangiacomin/devutils-installer-plugin": "*"
+    },
+    "archive": {
+        "exclude": [
+            ".*",
+            "!*.cmd"
+        ]
+    }
+}
